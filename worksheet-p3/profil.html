@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koleksi Film Marvel</title>
+  </head>
+  <body>
+    <header>
+      <h1>Koleksi Film Marvel</h1>
+      <nav aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#daftar-film">Daftar Film</a></li>
+          <li><a href="#tambah-film">Tambah Film</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="daftar-film">
+        <h2>Daftar Film Marvel</h2>
+        <figure>
+          <img
+            src="marvel_movies.jpeg"
+            alt="Kumpulan poster film pahlawan super dari seri Marvel Cinematic Universe"
+            width="640"
+            height="360"
+            loading="lazy"
+          />
+          <figcaption>Koleksi Tontonan Marvel Cinematic Universe</figcaption>
+        </figure>
+
+        <table>
+          <caption>
+            Daftar film Marvel yang sudah ditonton beserta nilai ulasannya
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Judul Film</th>
+              <th scope="col">Tahun Rilis</th>
+              <th scope="col">Rating (1-10)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Iron Man</th>
+              <td>2008</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <th scope="row">The Avengers</th>
+              <td>2012</td>
+              <td>9.5</td>
+            </tr>
+            <tr>
+              <th scope="row">Avengers: Endgame</th>
+              <td>2019</td>
+              <td>10</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="tambah-film">
+        <h2>Tambah Daftar Tontonan</h2>
+        <form action="/simpan" method="post">
+          <p>
+            <label for="judul-film">Judul Film</label>
+            <input type="text" id="judul-film" name="judul-film" required />
+          </p>
+          <p>
+            <label for="tahun-rilis">Tahun Rilis</label>
+            <input
+              type="number"
+              id="tahun-rilis"
+              name="tahun-rilis"
+              min="2008"
+              max="2026"
+              required
+            />
+          </p>
+          <p>
+            <label for="tanggal-nonton">Tanggal Menonton</label>
+            <input
+              type="date"
+              id="tanggal-nonton"
+              name="tanggal-nonton"
+              required
+            />
+          </p>
+          <button type="submit">Simpan</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Ahmad Dzakki (Jordan) · 25523032 · 2026</p>
+    </footer>
+  </body>
+</html>
