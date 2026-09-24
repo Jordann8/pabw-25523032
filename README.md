@@ -12,4 +12,4 @@ Topik halaman saya: Daftar film Marvel yang pernah saya tonton.
 
 ## Catatan penggunaan AI
 
-Pembuatan kerangka HTML dan struktur dokumen dibantu oleh AI sesuai kaidah semantik.
+Penggunaan AI pada tugas ini hanya sebatas untuk membantu menjawab pertanyaan di lembar evaluasi (Tiket Keluar) dan mencari referensi isian teks konten saja.
