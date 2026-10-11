@@ -31,3 +31,11 @@ Topik halaman saya: Daftar film Marvel yang pernah saya tonton.
 ## Catatan penggunaan AI
 
 Penggunaan AI pada tugas ini hanya sebatas untuk membantu menjawab pertanyaan di lembar evaluasi (Tiket Keluar) dan mencari referensi isian teks konten saja.
+
+## Worksheet P8 — JavaScript Modern ES6+, Struktur Data, dan Array Methods
+
+- Halaman `worksheet-p4/profil.html` memuat modul JavaScript `worksheet-p4/js/app.js` sebelum tag `</body>`.
+- Skrip mendefinisikan data profil dengan `const`, termasuk daftar keahlian, dan memberikan contoh optional chaining (`?.`) serta nullish coalescing (`??`).
+- Fungsi `buatPerkenalan({ nama, peran })` membentuk kalimat perkenalan, sedangkan `formatKeahlian(daftar)` menggabungkan keahlian dengan pemisah ` · `.
+- Data proyek disimpan sebagai array of objects. Skrip menampilkan profil dan proyek dengan `console.table()`, lalu memakai `.filter()`, `.find()`, dan `.map()`.
+- Pengurutan menggunakan `[...daftarProyek].sort(...)` agar array asli tidak berubah. Buka halaman melalui browser dan lihat Developer Tools Console untuk melihat hasilnya.
