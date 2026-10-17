@@ -1,0 +1,26 @@
+[
+  {
+    "judul": "Portofolio Web Responsif",
+    "deskripsi": "Rancangan dan implementasi situs portofolio yang menampilkan profil, keahlian, serta proyek dengan tampilan yang menyesuaikan perangkat.",
+    "kategori": "Pengembangan Web",
+    "tanggal": "2026-03-12"
+  },
+  {
+    "judul": "Panduan Memulai JavaScript",
+    "deskripsi": "Artikel pengantar tentang variabel, fungsi, dan manipulasi halaman web untuk pembaca yang baru belajar pemrograman.",
+    "kategori": "Artikel Teknologi",
+    "tanggal": "2026-04-08"
+  },
+  {
+    "judul": "Aplikasi Pencatat Kegiatan",
+    "deskripsi": "Aplikasi sederhana untuk mencatat daftar kegiatan harian, menandai tugas yang selesai, dan menjaga rencana tetap teratur.",
+    "kategori": "Proyek Aplikasi",
+    "tanggal": "2026-05-21"
+  },
+  {
+    "judul": "Mengenal Desain Antarmuka yang Mudah Digunakan",
+    "deskripsi": "Ulasan tentang hierarki visual, kontras warna, dan navigasi yang membantu pengunjung memahami sebuah situs.",
+    "kategori": "Artikel Desain",
+    "tanggal": "2026-06-03"
+  }
+]
